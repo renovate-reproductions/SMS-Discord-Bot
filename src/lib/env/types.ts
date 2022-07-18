@@ -6,6 +6,7 @@ declare module '@skyra/env-utilities' {
 		DISCORD_APPLICATION_SECRET: string;
 		DISCORD_PUBLIC_KEY: string;
 		DOTENV_DEBUG_ENABLED: BooleanString;
+		COMMAND_GUILD_IDS: string;
 		FOOTER_MESSAGE: string;
 		NODE_ENV: 'test' | 'development' | 'production';
 	}
