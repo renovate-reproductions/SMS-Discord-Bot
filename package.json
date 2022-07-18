@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A bot to manage the VUW SMS Discord server",
   "main": "dist/index.js",
+  "repository": "https://github.com/Darkflame72/SMS-Discord-Bot",
   "author": "Leon Bowie <leon@bowie-co.nz>",
   "license": "AGPLv3-or-later",
 	"private": true,
