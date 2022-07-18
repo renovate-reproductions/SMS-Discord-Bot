@@ -16,7 +16,6 @@ COPY --chown=node:node yarn.lock .
 COPY --chown=node:node package.json .
 COPY --chown=node:node .yarnrc.yml .
 COPY --chown=node:node .yarn/ .yarn/
-COPY --chown=node:node .env .env
 
 RUN sed -i 's/"prepare": "husky install .github\/husky"/"prepare": ""/' ./package.json
 
@@ -36,7 +35,6 @@ COPY --chown=node:node scripts/ scripts/
 COPY --chown=node:node src/ src/
 
 RUN yarn install --immutable
-RUN yarn run i18n:setup --no-pull
 RUN yarn run build
 
 # ================ #
