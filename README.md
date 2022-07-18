@@ -33,7 +33,6 @@ yarn install
 You can now build and start the web server.
 
 ```
-yarn i18n:setup
 yarn build
 yarn start
 ```
@@ -81,6 +80,5 @@ The recommended method is to use [localtunnel](https://localtunnel.github.io/www
 To run locally run the following command which will rebuild and start the bot on each code change.
 
 ```bash
-yarn i18n:setup # Setup the i18n files
 yarn dev
 ```
