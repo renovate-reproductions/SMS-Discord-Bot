@@ -1,5 +1,4 @@
 import { embedColor } from '#constants/constants';
-import { rotatingGrassBlock } from '#constants/icons';
 import { EmbedBuilder } from '@discordjs/builders';
 import { envIsDefined, envParseString } from '@skyra/env-utilities';
 
@@ -13,7 +12,7 @@ import { envIsDefined, envParseString } from '@skyra/env-utilities';
 export function embedBase(author: string, icon?: string | undefined): EmbedBuilder {
 	const embed = new EmbedBuilder() //
 		.setColor(embedColor)
-		.setAuthor({ name: author, iconURL: icon === undefined ? rotatingGrassBlock : icon });
+		.setAuthor({ name: author, iconURL: icon });
 
 	// If a footer is defined, add it to the embed.
 	if (envIsDefined('FOOTER_MESSAGE')) {
