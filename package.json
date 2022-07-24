@@ -32,7 +32,7 @@
 		"@sapphire/fetch": "2.4.1",
 		"@sapphire/utilities": "3.7.0",
 		"@skyra/env-utilities": "0.0.5",
-		"@skyra/http-framework": "0.5.8",
+		"@skyra/http-framework": "0.6.2",
 		"discord-api-types": "0.31.2",
 		"esno": "0.16.3",
 		"execa": "6.1.0",
