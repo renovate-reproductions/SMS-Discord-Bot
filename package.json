@@ -7,7 +7,7 @@
 	"author": "Leon Bowie <leon@bowie-co.nz>",
 	"license": "AGPLv3-or-later",
 	"private": true,
-	"packageManager": "yarn@3.2.0",
+	"packageManager": "yarn@3.2.2",
 	"type": "module",
 	"imports": {
 		"#lib/*": "./dist/lib/*.js",
