@@ -33,7 +33,7 @@
 		"@sapphire/utilities": "3.7.0",
 		"@skyra/env-utilities": "0.0.7",
 		"@skyra/http-framework": "0.6.2",
-		"discord-api-types": "0.31.2",
+		"discord-api-types": "0.36.3",
 		"esno": "0.16.3",
 		"execa": "6.1.0",
 		"ohmyfetch": "0.4.18",
