@@ -561,12 +561,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skyra/env-utilities@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@skyra/env-utilities@npm:0.0.5"
+"@skyra/env-utilities@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@skyra/env-utilities@npm:0.0.7"
   dependencies:
     dotenv-cra: ^3.0.2
-  checksum: 51ea8a95fd9bb7bfa5416131259bb86d55797ba3f7580b6608643f907d3749954b0033e314338283be5945dcf7318ecb36ee03521a3c60b9fdc1efd5110c5656
+  checksum: 1aa83387feabf4732a4437a2b65ce21551d9b5d14aef4a755b12a57cd6aee22d4e14aef5789bf646fb2e4bff17c0e6a8ce8daf40a0a3555cad0f8d4ac395c389
   languageName: node
   linkType: hard
 
@@ -4534,7 +4534,7 @@ __metadata:
     "@sapphire/prettier-config": 1.4.3
     "@sapphire/ts-config": 3.3.4
     "@sapphire/utilities": 3.7.0
-    "@skyra/env-utilities": 0.0.5
+    "@skyra/env-utilities": 0.0.7
     "@skyra/http-framework": 0.6.2
     "@swc/core": 1.2.215
     "@types/eslint": 8.4.5
